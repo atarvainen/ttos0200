@@ -1,0 +1,6 @@
+D:\L4623\TTOS0200_Olio_ohjelmointi\t5\bin\Debug\t5.exe.config
+D:\L4623\TTOS0200_Olio_ohjelmointi\t5\bin\Debug\t5.exe
+D:\L4623\TTOS0200_Olio_ohjelmointi\t5\bin\Debug\t5.pdb
+D:\L4623\TTOS0200_Olio_ohjelmointi\t5\obj\Debug\t5.exe
+D:\L4623\TTOS0200_Olio_ohjelmointi\t5\obj\Debug\t5.pdb
+D:\L4623\TTOS0200_Olio_ohjelmointi\t5\obj\Debug\t5.csprojResolveAssemblyReference.cache

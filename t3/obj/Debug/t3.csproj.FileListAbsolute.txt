@@ -1,0 +1,5 @@
+D:\L4623\TTOS0200_Olio_ohjelmointi\FirstTest\t3\bin\Debug\t3.exe.config
+D:\L4623\TTOS0200_Olio_ohjelmointi\FirstTest\t3\bin\Debug\t3.exe
+D:\L4623\TTOS0200_Olio_ohjelmointi\FirstTest\t3\bin\Debug\t3.pdb
+D:\L4623\TTOS0200_Olio_ohjelmointi\FirstTest\t3\obj\Debug\t3.exe
+D:\L4623\TTOS0200_Olio_ohjelmointi\FirstTest\t3\obj\Debug\t3.pdb
