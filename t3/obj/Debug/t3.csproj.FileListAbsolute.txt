@@ -3,3 +3,9 @@ D:\L4623\TTOS0200_Olio_ohjelmointi\FirstTest\t3\bin\Debug\t3.exe
 D:\L4623\TTOS0200_Olio_ohjelmointi\FirstTest\t3\bin\Debug\t3.pdb
 D:\L4623\TTOS0200_Olio_ohjelmointi\FirstTest\t3\obj\Debug\t3.exe
 D:\L4623\TTOS0200_Olio_ohjelmointi\FirstTest\t3\obj\Debug\t3.pdb
+F:\Opiskelu\ttos0200-olio-vko1\t3\bin\Debug\t3.exe.config
+F:\Opiskelu\ttos0200-olio-vko1\t3\bin\Debug\t3.exe
+F:\Opiskelu\ttos0200-olio-vko1\t3\bin\Debug\t3.pdb
+F:\Opiskelu\ttos0200-olio-vko1\t3\obj\Debug\t3.csproj.CoreCompileInputs.cache
+F:\Opiskelu\ttos0200-olio-vko1\t3\obj\Debug\t3.exe
+F:\Opiskelu\ttos0200-olio-vko1\t3\obj\Debug\t3.pdb

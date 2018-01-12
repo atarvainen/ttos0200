@@ -4,3 +4,10 @@ D:\L4623\TTOS0200_Olio_ohjelmointi\t5\bin\Debug\t5.pdb
 D:\L4623\TTOS0200_Olio_ohjelmointi\t5\obj\Debug\t5.exe
 D:\L4623\TTOS0200_Olio_ohjelmointi\t5\obj\Debug\t5.pdb
 D:\L4623\TTOS0200_Olio_ohjelmointi\t5\obj\Debug\t5.csprojResolveAssemblyReference.cache
+F:\Opiskelu\ttos0200-olio-vko1\t5\bin\Debug\t5.exe.config
+F:\Opiskelu\ttos0200-olio-vko1\t5\bin\Debug\t5.exe
+F:\Opiskelu\ttos0200-olio-vko1\t5\bin\Debug\t5.pdb
+F:\Opiskelu\ttos0200-olio-vko1\t5\obj\Debug\t5.csprojResolveAssemblyReference.cache
+F:\Opiskelu\ttos0200-olio-vko1\t5\obj\Debug\t5.csproj.CoreCompileInputs.cache
+F:\Opiskelu\ttos0200-olio-vko1\t5\obj\Debug\t5.exe
+F:\Opiskelu\ttos0200-olio-vko1\t5\obj\Debug\t5.pdb
