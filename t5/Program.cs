@@ -1,4 +1,10 @@
-﻿using System;
+﻿/// @author Antti Tarvainen
+/*
+Tehtävä 5
+Tee ohjelma, joka näyttää annetun sekuntimäärän tunteina, minuutteina ja sekunteina. Aikamääre sekuntteina kysytään käyttäjältä.
+*/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

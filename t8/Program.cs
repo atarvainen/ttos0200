@@ -1,4 +1,5 @@
-﻿/*
+﻿/// @author Antti Tarvainen
+/*
 Tehtävä 8
 Tee ohjelma, joka kysyy käyttäjältä 3 kokonaislukua ja tulostaa niistä suurimman.
 */
@@ -17,6 +18,7 @@ namespace t8
         {
             int[] numbers = new int[3];
             Console.WriteLine("Give 3 numbers.");
+            //fill array with numbers from user input
             for (int i = 0; i < 3; i++)
             {
                 Console.Write("Give a number: ");

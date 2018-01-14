@@ -1,4 +1,18 @@
-﻿using System;
+﻿/// @author Antti Tarvainen
+/*
+Tehtävä 2
+Tee ohjelma, jossa annetaan oppilaalle koulunumero seuraavan taulukon mukaan (pistemäärä kysytään ja ohjelma tulostaa numeron):
+
+pisteraja	numero
+0-1	0
+2-3	1
+4-5	2
+6-7	3
+8-9	4
+10-12	5
+*/
+
+using System;
 
 namespace t2
 {

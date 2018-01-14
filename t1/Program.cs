@@ -1,4 +1,10 @@
-﻿using System;
+﻿/// @author Antti Tarvainen
+/*
+Tehtävä 1
+Tee ohjelma, joka tulostaa käyttäjän antamaa lukua (1, 2 tai 3) vastaavan luvun sanana (yksi, kaksi tai kolme). Jos käyttäjä syöttää jonkin muun luvun, tulee näytölle tulostaa teksti: "joku muu luku".
+*/
+
+using System;
 
 namespace t1
 {
@@ -6,7 +12,7 @@ namespace t1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Give a number > ");
+            Console.Write("Give a number > ");
             int number = int.Parse(Console.ReadLine());
             if(number == 1)
             {
@@ -24,6 +30,7 @@ namespace t1
             {
                 Console.WriteLine("Some other number");
             }
+            Console.ReadKey();
         }
     }
 }

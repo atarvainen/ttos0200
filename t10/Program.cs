@@ -1,4 +1,5 @@
-﻿/*
+﻿/// @author Antti Tarvainen
+/*
 Tehtävä 10
 Tee ohjelma, joka alustaa sovellukseen käyttöö seuraavan taulukon arvot = [1,2,33,44,55,68,77,96,100]. Käy sovelluksessa taulukko läpi ja tulosta ruutuun "HEP"-sana aina kun taulukossa oleva luku on parillinen.
 */
@@ -15,8 +16,8 @@ namespace t10
     {
         static void Main(string[] args)
         {
-            int[] numbers = { 1, 2, 33, 44, 55, 68, 77, 96, 100 };
-            foreach (int number in numbers)
+            int[] numbers = { 1, 2, 33, 44, 55, 68, 77, 96, 100 }; //initiate array with numbers
+            foreach (int number in numbers) //output numbers if they're even
             {
                 if (number % 2 == 0)
                     Console.WriteLine(number);

@@ -1,4 +1,5 @@
-﻿/*
+﻿/// @author Antti Tarvainen
+/*
 Tehtävä 7
 Tee ohjelma, joka näyttää onko annettu vuosi karkausvuosi. Vuosiluku kysytään käyttäjältä.
 

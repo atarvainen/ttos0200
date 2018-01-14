@@ -1,4 +1,5 @@
-﻿/*
+﻿/// @author Antti Tarvainen
+/*
 Tehtävä 9
 Tee ohjelma, joka kysyy käyttäjältä lukuja, kunnes hän syöttää luvun 0. Ohjelman tulee tulostaa syötettyjen lukujen summa.
 */
@@ -20,8 +21,8 @@ namespace t9
             while (true)
             {
                 Console.Write("Give a number: ");
-                int number = int.Parse(Console.ReadLine());
-                if (number == 0)
+                int number = int.Parse(Console.ReadLine()); //user input into list
+                if (number == 0)    //break loop if input is 0
                 {
                     break;
                 }
@@ -30,8 +31,9 @@ namespace t9
                     numbers.Add(number);
                 }
             }
-            int size = numbers.Count;
+            int size = numbers.Count; //get List size
             int sum = 0;
+            // sum up list numbers
             for (int i = 0; i < size;i++)
             {
                 sum += numbers[i];
