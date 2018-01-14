@@ -30,13 +30,13 @@ namespace t9
                     numbers.Add(number);
                 }
             }
-            int size = numbers.Count - 1;
+            int size = numbers.Count;
             int sum = 0;
-            for (int i = 1, e = 0; e < size;e++, i++)
+            for (int i = 0; i < size;i++)
             {
-                sum = numbers[0] + numbers[i];
+                sum += numbers[i];
             }
-            Console.WriteLine(sum);
+            Console.WriteLine("Sum is " +sum);
             /*
             foreach(int number in numbers)
             {
