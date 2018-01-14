@@ -17,10 +17,10 @@ namespace t10
         static void Main(string[] args)
         {
             int[] numbers = { 1, 2, 33, 44, 55, 68, 77, 96, 100 }; //initiate array with numbers
-            foreach (int number in numbers) //output numbers if they're even
+            foreach (int number in numbers) //output HEP if number in array is even
             {
                 if (number % 2 == 0)
-                    Console.WriteLine(number);
+                    Console.WriteLine("HEP");
             }
             Console.ReadKey();
         }
