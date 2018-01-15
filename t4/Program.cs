@@ -1,4 +1,4 @@
-﻿/// @author Antti Tarvainen
+﻿/// @author Antti Tarvainen L4623
 /*
 Tehtävä 4
 Tee ohjelma, jossa kysytään käyttäjältä tämän ikä. Jos ikä on alle 18 vuotta, 

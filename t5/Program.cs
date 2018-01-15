@@ -1,4 +1,4 @@
-﻿/// @author Antti Tarvainen
+﻿/// @author Antti Tarvainen L4623
 /*
 Tehtävä 5
 Tee ohjelma, joka näyttää annetun sekuntimäärän tunteina, minuutteina ja sekunteina. Aikamääre sekuntteina kysytään käyttäjältä.

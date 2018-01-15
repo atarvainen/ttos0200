@@ -1,4 +1,4 @@
-﻿/// @author Antti Tarvainen
+﻿/// @author Antti Tarvainen L4623
 /*
 Tehtävä 3
 Tee ohjelma, joka kysyy käyttäjältä kolme lukua ja tulostaa niiden summan ja keskiarvon.

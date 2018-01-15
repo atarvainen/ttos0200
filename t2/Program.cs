@@ -1,4 +1,4 @@
-﻿/// @author Antti Tarvainen
+﻿/// @author Antti Tarvainen L4623
 /*
 Tehtävä 2
 Tee ohjelma, jossa annetaan oppilaalle koulunumero seuraavan taulukon mukaan (pistemäärä kysytään ja ohjelma tulostaa numeron):

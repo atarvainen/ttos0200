@@ -1,4 +1,4 @@
-﻿/// @author Antti Tarvainen
+﻿/// @author Antti Tarvainen L4623
 /*
 Tehtävä 6
 

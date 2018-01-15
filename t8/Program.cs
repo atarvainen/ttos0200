@@ -1,4 +1,4 @@
-﻿/// @author Antti Tarvainen
+﻿/// @author Antti Tarvainen L4623
 /*
 Tehtävä 8
 Tee ohjelma, joka kysyy käyttäjältä 3 kokonaislukua ja tulostaa niistä suurimman.
@@ -25,8 +25,21 @@ namespace t8
                 string line = Console.ReadLine();
                 int.TryParse(line, out numbers[i]);
             }
-            Array.Sort(numbers);
-            Console.WriteLine("Largest number is: " +numbers[2]);
+            int tmp;
+            for (int i = 0; i < 3; i++)
+            {
+                for (int j = 0; j < 3; j++)
+                {
+                    if (numbers[i] > numbers[j])
+                    {
+                        tmp = numbers[i];
+                        numbers[i] = numbers[j];
+                        numbers[j] = tmp;
+                    }
+                }
+            }
+            // Array.Sort(numbers);
+            Console.WriteLine("Largest number is: " +numbers[0]);
             Console.ReadKey();
         }
     }
