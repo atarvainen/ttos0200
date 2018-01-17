@@ -11,8 +11,6 @@ Arvosanajakauma:
 5:**
 
 Esimerkkitoiminta:
-
-
     Give grade: 5 [Enter]
     Give grade: 5 [Enter]
     Give grade: 4 [Enter]
@@ -29,7 +27,6 @@ Esimerkkitoiminta:
     4:*
     5:**
 */
-
 
 using System;
 using System.Collections.Generic;

@@ -1,8 +1,22 @@
 {
   "ExpandedNodes": [
+<<<<<<< HEAD
     "",
     "\\t15"
   ],
   "SelectedNode": "\\t15\\Program.cs",
+=======
+    "\\t11",
+    "\\t12",
+    "\\t13",
+    "\\t14",
+    "\\t2",
+    "\\t3",
+    "\\t6v2",
+    "\\t7",
+    "\\t8",
+    "\\t9"
+  ],
+>>>>>>> 3cba4a865c6c01564a5d041b6c97cf9ddf913deb
   "PreviewInSolutionExplorer": false
 }

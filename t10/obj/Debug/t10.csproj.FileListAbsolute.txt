@@ -5,3 +5,6 @@ F:\Opiskelu\ttos0200-olio-vko1\t10\obj\Debug\t10.csproj.CoreCompileInputs.cache
 F:\Opiskelu\ttos0200-olio-vko1\t10\obj\Debug\t10.exe
 F:\Opiskelu\ttos0200-olio-vko1\t10\obj\Debug\t10.pdb
 F:\Opiskelu\ttos0200-olio-vko1\t10\obj\Debug\t10.csprojResolveAssemblyReference.cache
+D:\L4623\ttos0200-olio-vko1\t10\obj\Debug\t10.csprojResolveAssemblyReference.cache
+D:\L4623\ttos0200-olio-vko1\t10\obj\Debug\t10.exe
+D:\L4623\ttos0200-olio-vko1\t10\obj\Debug\t10.pdb
