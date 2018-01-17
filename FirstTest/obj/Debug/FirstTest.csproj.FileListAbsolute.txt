@@ -1,0 +1,6 @@
+D:\L4623\TTOS0200_Olio_ohjelmointi\FirstTest\bin\Debug\FirstTest.exe.config
+D:\L4623\TTOS0200_Olio_ohjelmointi\FirstTest\bin\Debug\FirstTest.exe
+D:\L4623\TTOS0200_Olio_ohjelmointi\FirstTest\bin\Debug\FirstTest.pdb
+D:\L4623\TTOS0200_Olio_ohjelmointi\FirstTest\obj\Debug\FirstTest.csprojResolveAssemblyReference.cache
+D:\L4623\TTOS0200_Olio_ohjelmointi\FirstTest\obj\Debug\FirstTest.exe
+D:\L4623\TTOS0200_Olio_ohjelmointi\FirstTest\obj\Debug\FirstTest.pdb
