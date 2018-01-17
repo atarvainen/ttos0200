@@ -1,0 +1,6 @@
+F:\Opiskelu\ttos0200-olio-vko1\t14\bin\Debug\t14.exe.config
+F:\Opiskelu\ttos0200-olio-vko1\t14\bin\Debug\t14.exe
+F:\Opiskelu\ttos0200-olio-vko1\t14\bin\Debug\t14.pdb
+F:\Opiskelu\ttos0200-olio-vko1\t14\obj\Debug\t14.csproj.CoreCompileInputs.cache
+F:\Opiskelu\ttos0200-olio-vko1\t14\obj\Debug\t14.exe
+F:\Opiskelu\ttos0200-olio-vko1\t14\obj\Debug\t14.pdb
