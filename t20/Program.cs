@@ -19,25 +19,21 @@ namespace t20
             string three = "3";
             string four = "4";
             string charinput;
-            Console.WriteLine("  1 2 3 4");
+
             string rightrow2 = "b |2|1|3|4|";
             string rightrow3 = "c |4|3|2|1|";
-            Console.WriteLine("   ________");
-            Console.WriteLine("a |3|4|1|2|");
-            Console.WriteLine(row2);
-            Console.WriteLine(row3);
-            Console.WriteLine("d |1|2|4|3|");
             while (true)
             {
-                Console.Write("Anna paikka: ");
-                string position = Console.ReadLine();
-                Console.Write("Anna luku: ");
-                string input = Console.ReadLine();
+                Console.WriteLine("   1 2 3 4");
                 Console.WriteLine("   ________");
                 Console.WriteLine("a |3|4|1|2|");
                 Console.WriteLine(row2);
                 Console.WriteLine(row3);
                 Console.WriteLine("d |1|2|4|3|");
+                Console.Write("Anna luku: ");
+                string input = Console.ReadLine();
+                Console.Write("Anna paikka: ");
+                string position = Console.ReadLine();
                 switch (position)
                 {
                     case "1b":
@@ -46,9 +42,9 @@ namespace t20
                             {
                                 for (int i = 0; i < row2.Length; i++)
                                 {
-                                    if (row2[i] == input)
+                                    if (rightrow2[i] == input[0])
                                     {
-                                        row2[i] = input;
+                                        row2[i] = input[0];
                                     }
                                 }
                                 if (row2.ToString() == rightrow2 && row3.ToString() == rightrow3)
@@ -65,13 +61,13 @@ namespace t20
                         }
                     case "1c":
                         {
-                            if (charinput == four)
+                            if (input == four)
                             {
                                 for (int i = 0; i < row2.Length; i++)
                                 {
-                                    if (row2[i] == input)
+                                    if (rightrow3[i] == input[0])
                                     {
-                                        row2[i] = input;
+                                        row3[i] = input[0];
                                     }
                                 }
                                 if (row2.ToString() == rightrow2 && row3.ToString() == rightrow3)
@@ -92,9 +88,9 @@ namespace t20
                             {
                                 for (int i = 0; i < row2.Length; i++)
                                 {
-                                    if (row2[i] == input)
+                                    if (rightrow2[i] == input[0])
                                     {
-                                        row2[i] = input;
+                                        row2[i] = input[0];
                                     }
                                 }
                                 if (row2.ToString() == rightrow2 && row3.ToString() == rightrow3)
@@ -115,9 +111,9 @@ namespace t20
                             {
                                 for (int i = 0; i < row2.Length; i++)
                                 {
-                                    if (row2[i] == input)
+                                    if (rightrow3[i] == input[0])
                                     {
-                                        row2[i] = input;
+                                        row3[i] = input[0];
                                     }
                                 }
                                 if (row2.ToString() == rightrow2 && row3.ToString() == rightrow3)
@@ -138,9 +134,9 @@ namespace t20
                             {
                                 for (int i = 0; i < row2.Length; i++)
                                 {
-                                    if (row2[i] == input)
+                                    if (rightrow2[i] == input[0])
                                     {
-                                        row2[i] = input;
+                                        row2[i] = input[0];
                                     }
                                 }
                                 if (row2.ToString() == rightrow2 && row3.ToString() == rightrow3)
@@ -161,9 +157,9 @@ namespace t20
                             {
                                 for (int i = 0; i < row2.Length; i++)
                                 {
-                                    if (row2[i] == charinput)
+                                    if (rightrow3[i] == input[0])
                                     {
-                                        row2[i] = charinput;
+                                        row3[i] = input[0];
                                     }
                                 }
                                 if (row2.ToString() == rightrow2 && row3.ToString() == rightrow3)
@@ -184,9 +180,9 @@ namespace t20
                             {
                                 for (int i = 0; i < row2.Length; i++)
                                 {
-                                    if (row2[i] == input)
+                                    if (rightrow2[i] == input[0])
                                     {
-                                        row2[i] = input;
+                                        row2[i] = input[0];
                                     }
                                 }
                                 if (row2.ToString() == rightrow2 && row3.ToString() == rightrow3)
@@ -207,9 +203,9 @@ namespace t20
                             {
                                 for (int i = 0; i < row2.Length; i++)
                                 {
-                                    if (row2[i] == input)
+                                    if (rightrow3[i] == input[0])
                                     {
-                                        row2[i] = input;
+                                        row3[i] = input[0];
                                     }
                                 }
                                 if (row2.ToString() == rightrow2 && row3.ToString() == rightrow3)
@@ -225,6 +221,11 @@ namespace t20
                             continue;
                         }
                 }
+                if (row2.ToString() == rightrow2 && row3.ToString() == rightrow3)
+                    {
+                        Console.WriteLine("Voitit!");
+                        break;
+                    }
             }
         }
     }

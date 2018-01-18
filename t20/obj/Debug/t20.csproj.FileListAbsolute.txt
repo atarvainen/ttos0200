@@ -8,3 +8,6 @@ F:\Opiskelu\ttos0200-olio-vko1\t20\obj\Debug\t20.csprojResolveAssemblyReference.
 D:\L4623\ttos0200-olio-vko1\t20\obj\Debug\t20.csprojResolveAssemblyReference.cache
 D:\L4623\ttos0200-olio-vko1\t20\obj\Debug\t20.exe
 D:\L4623\ttos0200-olio-vko1\t20\obj\Debug\t20.pdb
+D:\L4623\ttos0200-olio-vko1\t20\bin\Debug\t20.exe.config
+D:\L4623\ttos0200-olio-vko1\t20\bin\Debug\t20.exe
+D:\L4623\ttos0200-olio-vko1\t20\bin\Debug\t20.pdb
