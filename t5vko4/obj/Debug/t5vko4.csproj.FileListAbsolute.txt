@@ -1,0 +1,7 @@
+F:\Opiskelu\ttos0200-olio-vko1\t5vko4\bin\Debug\t5vko4.exe.config
+F:\Opiskelu\ttos0200-olio-vko1\t5vko4\bin\Debug\t5vko4.exe
+F:\Opiskelu\ttos0200-olio-vko1\t5vko4\bin\Debug\t5vko4.pdb
+F:\Opiskelu\ttos0200-olio-vko1\t5vko4\obj\Debug\t5vko4.csprojResolveAssemblyReference.cache
+F:\Opiskelu\ttos0200-olio-vko1\t5vko4\obj\Debug\t5vko4.csproj.CoreCompileInputs.cache
+F:\Opiskelu\ttos0200-olio-vko1\t5vko4\obj\Debug\t5vko4.exe
+F:\Opiskelu\ttos0200-olio-vko1\t5vko4\obj\Debug\t5vko4.pdb

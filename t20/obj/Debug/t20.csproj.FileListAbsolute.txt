@@ -1,0 +1,7 @@
+F:\Opiskelu\ttos0200-olio-vko1\t20\bin\Debug\t20.exe.config
+F:\Opiskelu\ttos0200-olio-vko1\t20\bin\Debug\t20.exe
+F:\Opiskelu\ttos0200-olio-vko1\t20\bin\Debug\t20.pdb
+F:\Opiskelu\ttos0200-olio-vko1\t20\obj\Debug\t20.csproj.CoreCompileInputs.cache
+F:\Opiskelu\ttos0200-olio-vko1\t20\obj\Debug\t20.exe
+F:\Opiskelu\ttos0200-olio-vko1\t20\obj\Debug\t20.pdb
+F:\Opiskelu\ttos0200-olio-vko1\t20\obj\Debug\t20.csprojResolveAssemblyReference.cache

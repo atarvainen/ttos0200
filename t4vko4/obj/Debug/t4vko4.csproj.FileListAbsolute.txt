@@ -1,0 +1,6 @@
+F:\Opiskelu\ttos0200-olio-vko1\t4vko4\bin\Debug\t4vko4.exe.config
+F:\Opiskelu\ttos0200-olio-vko1\t4vko4\bin\Debug\t4vko4.exe
+F:\Opiskelu\ttos0200-olio-vko1\t4vko4\bin\Debug\t4vko4.pdb
+F:\Opiskelu\ttos0200-olio-vko1\t4vko4\obj\Debug\t4vko4.csproj.CoreCompileInputs.cache
+F:\Opiskelu\ttos0200-olio-vko1\t4vko4\obj\Debug\t4vko4.exe
+F:\Opiskelu\ttos0200-olio-vko1\t4vko4\obj\Debug\t4vko4.pdb
