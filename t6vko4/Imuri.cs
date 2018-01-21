@@ -10,6 +10,7 @@ namespace t6vko4
     {
         public string Model { get; set; }
         public int SuctionPower { get; set; }
+        public int Suction { get; set; }
         public double Weight { get; set; }
         public int Reach { get; set; }
         public bool Power { get; set; }
@@ -38,24 +39,26 @@ namespace t6vko4
             Console.WriteLine("Power off.");
         }
 
-        public void SetSuctionPower()
+        public void SetSuctionPower(int number)
         {
-            SuctionPower = SuctionPower / 100;
-            Console.WriteLine("Suction set to: {0}", SuctionPower);
+            Suction = SuctionPower;
+            Suction = Suction / 100 * number;
+            Console.WriteLine("Imuteho nyt: {0}", Suction);
         }
 
         public void PrintData()
         {
             Console.WriteLine("Merkki: {0}", Model);
             Console.WriteLine("Paino: {0}", Weight);
-            Console.WriteLine("Imuteho: {0}W", SuctionPower);
+            Console.WriteLine("Imuteho: {0}W", Suction);
             Console.WriteLine("Ulottuvuus: {0}m", Reach);
             Console.WriteLine("Polypussin tila: {0}%", Dust);
         }
 
         public override string ToString()
         {
-            return "Merkki: " + Model + " Teho: " + SuctionPower + "W Paino: " + 
+            
+            return "Merkki: " + Model + " Teho: " + Suction + "W Paino: " + 
                 Weight + "kg Ulottuvuus: " + Reach +"m.";
         }
     }

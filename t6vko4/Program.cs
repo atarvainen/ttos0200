@@ -63,7 +63,8 @@ namespace t6vko4
                 {
                     Console.WriteLine("Tulosta imurin tiedot 1");
                     Console.WriteLine("Aloita imurointi      2");
-                    Console.WriteLine("Lopeta                3");
+                    Console.WriteLine("Aseta imuteho         3");
+                    Console.WriteLine("Lopeta                4");
                     int input = int.Parse(Console.ReadLine());
 
                     switch (input)
@@ -103,6 +104,34 @@ namespace t6vko4
                             }
 
                         case 3:
+                            {
+                                while (true)
+                                    {
+                                    Console.WriteLine("Imuteho: {0}", vacuums[vacuumchoice].SuctionPower);
+                                    Console.Write("Aseta imuteho 10-100%: ");
+                                    bool result2 = int.TryParse(Console.ReadLine(), out int number2);
+                                    if (result2)
+                                        {
+                                            if (number2 <= 100)
+                                            {
+                                                vacuums[vacuumchoice].SetSuctionPower(number2);
+                                                break;
+                                            }
+                                        else
+                                            {
+                                                Console.WriteLine("Anna luku uudestaan");
+                                                continue;
+                                            }
+                                        }
+                                    else
+                                        {
+                                            Console.WriteLine("Anna luku uudestaan");
+                                            continue;
+                                        }
+                                    }break;
+                            }
+
+                        case 4:
                             return;
                     }
                 }
