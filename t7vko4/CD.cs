@@ -18,42 +18,30 @@ namespace t7vko4
 {
     class CD
     {
-        private Song song1 = new Song("Shudder Before the Beautiful", "06:29");
-        private Song song2 = new Song("Weak Fantasy", "05:23");
-        private Song song3 = new Song("Elan", "04:45");
-        private Song song4 = new Song("Yours Is an Empty Hope", "05:34");
-        private Song song5 = new Song("Our Decades in the Sun", "06:37");
-        private Song song6 = new Song("My Walden", "04:38");
-        private Song song7 = new Song("Endless Forms Most Beautiful", "05:07");
-        private Song song8 = new Song("Edema Ruh", "05:15");
-        private Song song9 = new Song("Alpenglow", "04:45");
-        private Song song10 = new Song("The Eyes of Sharbat Gula", "06:03");
-        private Song song11 = new Song("The Greatest Show on Earth", "24:00");
-
         public string Artist { get; set; }
         public string Name { get; set; }
         public string Genre { get; set; }
         public double Price { get; set; }
+        private List<Song> songs = new List<Song>();
 
-        public void PrintData()
+        public void AddSong(string name, string duration)
         {
-            Console.WriteLine("CD:");
-            Console.WriteLine("-Artist: " + Artist);
-            Console.WriteLine("-Name: " + Name);
-            Console.WriteLine("-Genre: " + Genre);
-            Console.WriteLine("-Price: {0}$", Price);
-            Console.WriteLine("Songs:");
-            Console.WriteLine("--- Name: {0} - {1}", song1.Name, song1.Duration);
-            Console.WriteLine("--- Name: {0} - {1}", song2.Name, song2.Duration);
-            Console.WriteLine("--- Name: {0} - {1}", song3.Name, song3.Duration);
-            Console.WriteLine("--- Name: {0} - {1}", song4.Name, song4.Duration);
-            Console.WriteLine("--- Name: {0} - {1}", song5.Name, song5.Duration);
-            Console.WriteLine("--- Name: {0} - {1}", song6.Name, song6.Duration);
-            Console.WriteLine("--- Name: {0} - {1}", song7.Name, song7.Duration);
-            Console.WriteLine("--- Name: {0} - {1}", song8.Name, song8.Duration);
-            Console.WriteLine("--- Name: {0} - {1}", song9.Name, song9.Duration);
-            Console.WriteLine("--- Name: {0} - {1}", song10.Name, song10.Duration);
-            Console.WriteLine("--- Name: {0} - {1}", song11.Name, song11.Duration);
+            songs.Add(new Song(name, duration));
+        }
+
+        public override string ToString()
+        {
+            return "Artisti: " + Artist + " Nimi: " + Name + " Genre: " + Genre + " Hinta: " + Price;
+        }
+
+        public void PrintSongs()
+        {
+            foreach (Song song in songs)
+                {
+                    Console.Write(song.Name);
+                    Console.Write(" " +song.Duration);
+                    Console.WriteLine();
+                }
         }
 
     }
@@ -68,5 +56,6 @@ namespace t7vko4
             Name = name;
             Duration = duration;
         }
+
     }
 }

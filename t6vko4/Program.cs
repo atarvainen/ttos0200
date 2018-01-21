@@ -136,7 +136,6 @@ namespace t6vko4
                     }
                 }
             }
-
            Console.ReadKey();
         }
     }
