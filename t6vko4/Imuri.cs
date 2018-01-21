@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace t6vko4
 {
-    class Imuri
+    class Vacuum
     {
-        public string Merkki { get; set; }
-        public int Teho { get; set; }
-        public double Paino { get; set; }
-        public int Ulottuvuus { get; set; }
+        public string Model { get; set; }
+        public int SuctionPower { get; set; }
+        public double Weight { get; set; }
+        public int Reach { get; set; }
         public bool Power { get; set; }
         private double dust;
 
@@ -21,47 +21,42 @@ namespace t6vko4
 
             set
             {
-                /*
-                if (value > )
-                    Console.WriteLine("Change dust bag.");
-                else
-                {
-                */
-                    dust += value;
-                    Console.WriteLine("Dust bag at {0}%", dust);
-                //}
+                dust += value;
+                Console.WriteLine("Dust bag at {0}%", dust);
             }
         }
 
-        public Imuri()
-        {
-            dust = 0;
-        }
-
-        public Imuri(string merkki, int teho,double paino,int ulottuvuus)
-        {
-            Merkki = merkki;
-            Teho = teho;
-            Paino = paino;
-            Ulottuvuus = ulottuvuus;
-        }
-
-        public void poweron()
+        public void PowerOn()
         {
             Power = true;
             Console.WriteLine("Power on.");
         }
 
-        public void poweroff()
+        public void PowerOff()
         {
             Power = true;
             Console.WriteLine("Power off.");
         }
 
+        public void SetSuctionPower()
+        {
+            SuctionPower = SuctionPower / 100;
+            Console.WriteLine("Suction set to: {0}", SuctionPower);
+        }
+
+        public void PrintData()
+        {
+            Console.WriteLine("Merkki: {0}", Model);
+            Console.WriteLine("Paino: {0}", Weight);
+            Console.WriteLine("Imuteho: {0}W", SuctionPower);
+            Console.WriteLine("Ulottuvuus: {0}m", Reach);
+            Console.WriteLine("Polypussin tila: {0}%", Dust);
+        }
+
         public override string ToString()
         {
-            return "Merkki: " + Merkki + " Teho: " + Teho + "W Paino: " + 
-                Paino + "kg Ulottuvuus: " + Ulottuvuus +"m.";
+            return "Merkki: " + Model + " Teho: " + SuctionPower + "W Paino: " + 
+                Weight + "kg Ulottuvuus: " + Reach +"m.";
         }
     }
 }

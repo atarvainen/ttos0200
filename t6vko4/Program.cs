@@ -19,49 +19,96 @@ namespace t6vko4
     {
         static void Main(string[] args)
         {
+            int i = 0;
+            int j = 1;
+            int vacuumchoice = 0;
             Stopwatch stopWatch = new Stopwatch();
-            Imuri miele = new Imuri("Miele", 900, 2.1, 10);
-            string[] imurit = new string[1];
 
-            imurit[0] = miele.ToString();
-
-            foreach (string imuri in imurit)
-                Console.WriteLine(imuri);
-
-            Console.Write("Start vacuuming? yes/no ");
-            string input = Console.ReadLine();
-            while (true)
+            List<Vacuum> vacuums = new List<Vacuum>
             {
-                if (input.ToLower() == "yes")
+                new Vacuum(){Model = "Miele", SuctionPower= 900,Weight= 2.10,Reach= 12},
+                new Vacuum(){Model = "Electrolux", SuctionPower= 700,Weight= 1.90,Reach= 10}
+            };
+
+            //new List with object values as string
+            List<string> vacuumstats =new List<string>();
+
+
+            //add string values to list
+            foreach (Vacuum vacuum in vacuums)
                 {
-                    stopWatch.Start();
-                    miele.poweron();
-                    while (true)
-                    {
-                        Console.Write("Stop vacuuming? yes/no ");
-                        string stop = Console.ReadLine();
-                        if (stop.ToLower() == "yes")
-                        {
-                            stopWatch.Stop();
-                            miele.poweroff();
-                            double elapsed = stopWatch.Elapsed.TotalMilliseconds;
-                            double elapsedrounded = Math.Round(elapsed / 10000, 2);
-                            miele.Dust = elapsedrounded;
-                            break;
-                        }
-                        else
-                        {
-                            continue;
-                        }
-                    }
-                    break;
+                    vacuumstats.Add(vacuums[i].ToString());
+                    i++;
                 }
-                else
+
+            //Display vacuums stats
+           foreach (string vacuum in vacuumstats)
                 {
-                    break;
+                    Console.Write("{0} ", j);
+                    Console.WriteLine(vacuum);
+                    j++;
+                }
+
+            Console.WriteLine();
+            Console.Write("Valitse imuri 1-{0}: ", i);
+            bool result = int.TryParse(Console.ReadLine(), out int number);
+            vacuumchoice = number -1;
+
+            if (result)
+            {
+                Console.WriteLine("Valitsit imurin: {0}", vacuumstats[vacuumchoice]);
+                Console.WriteLine();
+
+                while (true)
+                {
+                    Console.WriteLine("Tulosta imurin tiedot 1");
+                    Console.WriteLine("Aloita imurointi      2");
+                    Console.WriteLine("Lopeta                3");
+                    int input = int.Parse(Console.ReadLine());
+
+                    switch (input)
+                    {
+                        case 1:
+                            {
+                                Console.WriteLine(vacuumstats[vacuumchoice]);
+                                continue;
+                            }
+
+                        case 2:
+                            {
+                                while (true)
+                                {
+                                        stopWatch.Start();
+                                        vacuums[vacuumchoice].PowerOn();
+                                        while (true)
+                                        {
+                                            Console.Write("Lopeta imurointi? yes/no ");
+                                            string stop = Console.ReadLine();
+
+                                            if (stop.ToLower() == "yes")
+                                            {
+                                                stopWatch.Stop();
+                                                vacuums[vacuumchoice].PowerOff();
+                                                double elapsed = stopWatch.Elapsed.TotalMilliseconds;
+                                                double elapsedrounded = Math.Round(elapsed / 10000, 2);
+                                                vacuums[vacuumchoice].Dust = elapsedrounded;
+                                                Console.WriteLine();
+                                                break;
+                                            }
+                                            else
+                                                continue;
+
+                                        }break;
+                                }break;
+                            }
+
+                        case 3:
+                            return;
+                    }
                 }
             }
-            Console.ReadKey();
+
+           Console.ReadKey();
         }
     }
 }
