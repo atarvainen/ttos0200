@@ -1,5 +1,0 @@
-D:\L4623\ttos0200-olio-vko1\vko5\t2\bin\Debug\t2.exe.config
-D:\L4623\ttos0200-olio-vko1\vko5\t2\bin\Debug\t2.exe
-D:\L4623\ttos0200-olio-vko1\vko5\t2\bin\Debug\t2.pdb
-D:\L4623\ttos0200-olio-vko1\vko5\t2\obj\Debug\t2.exe
-D:\L4623\ttos0200-olio-vko1\vko5\t2\obj\Debug\t2.pdb

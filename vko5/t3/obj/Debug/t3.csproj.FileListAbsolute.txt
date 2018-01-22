@@ -1,6 +1,0 @@
-D:\L4623\ttos0200-olio-vko1\vko5\t3\bin\Debug\t3.exe.config
-D:\L4623\ttos0200-olio-vko1\vko5\t3\bin\Debug\t3.exe
-D:\L4623\ttos0200-olio-vko1\vko5\t3\bin\Debug\t3.pdb
-D:\L4623\ttos0200-olio-vko1\vko5\t3\obj\Debug\t3.csprojResolveAssemblyReference.cache
-D:\L4623\ttos0200-olio-vko1\vko5\t3\obj\Debug\t3.exe
-D:\L4623\ttos0200-olio-vko1\vko5\t3\obj\Debug\t3.pdb
