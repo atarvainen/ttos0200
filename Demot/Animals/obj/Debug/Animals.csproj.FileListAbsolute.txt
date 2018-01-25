@@ -1,0 +1,5 @@
+D:\L4623\ttos0200-olio-vko1\Demot\Animals\bin\Debug\Animals.exe.config
+D:\L4623\ttos0200-olio-vko1\Demot\Animals\bin\Debug\Animals.exe
+D:\L4623\ttos0200-olio-vko1\Demot\Animals\bin\Debug\Animals.pdb
+D:\L4623\ttos0200-olio-vko1\Demot\Animals\obj\Debug\Animals.exe
+D:\L4623\ttos0200-olio-vko1\Demot\Animals\obj\Debug\Animals.pdb

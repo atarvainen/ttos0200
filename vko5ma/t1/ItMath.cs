@@ -11,11 +11,10 @@ namespace t1
     {
         public static bool OnkoLuku(string syote)
         {
-            int number = 0;
-            double number2 = 0;
-            bool result = int.TryParse(syote, out number);
-            bool result2 = double.TryParse(syote, NumberStyles.None, CultureInfo.CurrentCulture, out number2);
-            if (result || result2)
+            CultureInfo info = CultureInfo.GetCultureInfo("fi-FI");
+            float number = 0;
+            bool result = float.TryParse(syote, NumberStyles.Any, info, out number);
+            if (result)
             {
                 return true;
             }
@@ -33,7 +32,6 @@ namespace t1
             Console.WriteLine(ItMath.OnkoLuku("abcABC1"));
             Console.WriteLine(ItMath.OnkoLuku("1234."));
             Console.WriteLine(ItMath.OnkoLuku(",1234"));
-            Console.WriteLine(ItMath.OnkoLuku("1234,"));
             Console.WriteLine(ItMath.OnkoLuku("1234,"));
             Console.WriteLine(ItMath.OnkoLuku("12-34"));
 

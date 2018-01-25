@@ -16,6 +16,7 @@ Knoppikysymys:
 Jos vertaat yllä olevaa kuvaa ja alla olevaa kuvaa huomaat, että opettajalta on jäänyt 
 yksi tarkistus vielä tekemättä. Mikä? Miten korjaisit algoritmin?
 */
+
 using System;
 using System.Collections.Generic;
 using System.Linq;

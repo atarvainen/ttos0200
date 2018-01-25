@@ -2,13 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\Demot",
-    "\\Demot\\Static",
-    "\\vko4ma",
-    "\\vko4to",
-    "\\vko4to\\t2",
-    "\\vko4to\\t3",
+    "\\Demot\\PersonApplication",
+    "\\Demot\\PersonApplication\\bin",
+    "\\Demot\\PersonApplication\\obj",
+    "\\Demot\\PersonApplication\\Properties",
+    "\\vko5ma",
     "\\vko5ma\\t1"
   ],
-  "SelectedNode": "\\vko4to\\t2\\ElevatorControl.cs",
+  "SelectedNode": "\\Demot\\PersonApplication",
   "PreviewInSolutionExplorer": false
 }

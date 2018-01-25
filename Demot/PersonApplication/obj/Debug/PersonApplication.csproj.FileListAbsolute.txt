@@ -1,0 +1,6 @@
+D:\L4623\ttos0200-olio-vko1\Demot\PersonApplication\bin\Debug\PersonApplication.exe.config
+D:\L4623\ttos0200-olio-vko1\Demot\PersonApplication\bin\Debug\PersonApplication.exe
+D:\L4623\ttos0200-olio-vko1\Demot\PersonApplication\bin\Debug\PersonApplication.pdb
+D:\L4623\ttos0200-olio-vko1\Demot\PersonApplication\obj\Debug\PersonApplication.csprojResolveAssemblyReference.cache
+D:\L4623\ttos0200-olio-vko1\Demot\PersonApplication\obj\Debug\PersonApplication.exe
+D:\L4623\ttos0200-olio-vko1\Demot\PersonApplication\obj\Debug\PersonApplication.pdb
