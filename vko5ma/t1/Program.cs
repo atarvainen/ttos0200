@@ -9,12 +9,6 @@ hyväksytä).
 Tee testausta varten luokka TestiPeti, ja sinne sopiva metodi, jolla testaat erilaisia 
 vaihtoehtoja.
 Alla esimerkin omainen Metodin OnkoLuku testaus kelvollisilla ja epäkelvoilla syötteillä.
-
-
-
-Knoppikysymys:
-Jos vertaat yllä olevaa kuvaa ja alla olevaa kuvaa huomaat, että opettajalta on jäänyt 
-yksi tarkistus vielä tekemättä. Mikä? Miten korjaisit algoritmin?
 */
 
 using System;

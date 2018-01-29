@@ -11,9 +11,9 @@ namespace t2
     {
         static void Main(string[] args)
         {
-            string syote = "12.13.2017";
+            string syote = "01.01.2017";
             Console.WriteLine(ItMath.OnkoPvm(syote));
-
+            Console.ReadKey();
         }
     }
 }
