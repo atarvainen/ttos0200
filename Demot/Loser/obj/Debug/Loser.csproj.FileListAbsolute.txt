@@ -1,0 +1,6 @@
+D:\L4623\ttos0200-olio-vko1\Demot\Loser\bin\Debug\Loser.exe.config
+D:\L4623\ttos0200-olio-vko1\Demot\Loser\bin\Debug\Loser.exe
+D:\L4623\ttos0200-olio-vko1\Demot\Loser\bin\Debug\Loser.pdb
+D:\L4623\ttos0200-olio-vko1\Demot\Loser\obj\Debug\Loser.csprojResolveAssemblyReference.cache
+D:\L4623\ttos0200-olio-vko1\Demot\Loser\obj\Debug\Loser.exe
+D:\L4623\ttos0200-olio-vko1\Demot\Loser\obj\Debug\Loser.pdb

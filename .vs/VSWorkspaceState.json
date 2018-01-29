@@ -1,15 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Demot\\PersonApplication\\bin",
-    "\\Demot\\PersonApplication\\obj",
-    "\\Demot\\PersonApplication\\Properties",
-    "\\vko4to",
-    "\\vko5ma",
+    "\\Demot",
+    "\\Demot\\Animals",
+    "\\Demot\\Drawing",
+    "\\Demot\\Loser",
     "\\vko5ma\\t1",
-    "\\vko5ma\\t2",
-    "\\vko5ma\\t3"
+    "\\vko5to",
+    "\\vko5to\\t1",
+    "\\vko5to\\t2",
+    "\\vko5to\\t3"
   ],
-  "SelectedNode": "\\vko5ma\\t3\\ItParser.cs",
+  "SelectedNode": "\\vko5to\\t1\\Boss.cs",
   "PreviewInSolutionExplorer": false
 }
