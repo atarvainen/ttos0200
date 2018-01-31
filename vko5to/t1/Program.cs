@@ -36,7 +36,6 @@ namespace t1
         {
             Employee kirsi = new Employee("Kirsi Kernel", "Teacher", 1200);
             Employee jussi = new Boss("Jussi Jurkka", "Head of Institute", 9000, "Audi", 5000);
-            jussi.Name = "Jussi";
 
             Console.WriteLine(kirsi.ToString());
             Console.WriteLine(jussi.ToString());
