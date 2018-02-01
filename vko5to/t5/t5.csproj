@@ -43,11 +43,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Blu-ray.cs" />
-    <Compile Include="CD.cs" />
-    <Compile Include="DVD.cs" />
-    <Compile Include="OpticalDisc.cs" />
+    <Compile Include="FloppyDisk.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Ssd.cs" />
+    <Compile Include="StorageMedia.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
