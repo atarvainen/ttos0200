@@ -1,0 +1,6 @@
+D:\L4623\ttos0200-olio-vko1\Demot\Interfaces\bin\Debug\Interfaces.exe.config
+D:\L4623\ttos0200-olio-vko1\Demot\Interfaces\bin\Debug\Interfaces.exe
+D:\L4623\ttos0200-olio-vko1\Demot\Interfaces\bin\Debug\Interfaces.pdb
+D:\L4623\ttos0200-olio-vko1\Demot\Interfaces\obj\Debug\Interfaces.csprojResolveAssemblyReference.cache
+D:\L4623\ttos0200-olio-vko1\Demot\Interfaces\obj\Debug\Interfaces.exe
+D:\L4623\ttos0200-olio-vko1\Demot\Interfaces\obj\Debug\Interfaces.pdb

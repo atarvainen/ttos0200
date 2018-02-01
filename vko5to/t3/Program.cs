@@ -21,7 +21,7 @@ namespace t3
         static void Main(string[] args)
         {
             Radio radio = new Radio();
-            radio.Power = false;
+            radio.PowerOff();
             while (true)
             {
                 Console.WriteLine("Change channel 0");
