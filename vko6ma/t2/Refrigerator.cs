@@ -8,10 +8,9 @@ namespace t2
 {
     class Refrigerator
     {
+        public List<Ingredient> ingredientsInFridge = new List<Ingredient>();
         public string Name { get; set; }
         public string Model { get; set; }
-
-        public List<Ingredient> ingredients = new List<Ingredient>();
 
         public Refrigerator(string name, string model)
         {
@@ -19,29 +18,18 @@ namespace t2
             Model = model;
         }
 
-        public void AddIngredient(string name, DateTime bestbefore)
+        public void GetIngredientsInFridge()
         {
-            ingredients.Add(new Ingredient(name, bestbefore));
-        }
-
-        public void PrintIngredients()
-        {
-            foreach (Ingredient ingredient in ingredients)
+            foreach (Ingredient ingredient in ingredientsInFridge)
             {
-                Console.WriteLine("Nimi: {0}, Parasta ennen: ", ingredient.Name, ingredient.BestBefore);
+                DateTime dateOnly = ingredient.BestBefore;
+                Console.WriteLine("Ingredient: {0} Best Before: {1}", ingredient.Name, dateOnly.ToString("d"));
             }
         }
-    }
 
-    class Ingredient
-    {
-        public string Name { get; set; }
-        public DateTime BestBefore { get; set; }
-
-        public Ingredient(string name, DateTime bestbefore)
+        public override string ToString()
         {
-            Name = name;
-            BestBefore = bestbefore;
+            return "Name: " + Name + " Model: " + Model;
         }
     }
 }

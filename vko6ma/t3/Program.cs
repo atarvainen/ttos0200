@@ -20,6 +20,23 @@ namespace t3
     {
         static void Main(string[] args)
         {
+            Seura ducks = new Seura("Ducks", "Anaheim");
+
+            List<Pelaaja> players = new List<Pelaaja>();
+
+            players.Add(new Pelaaja("Kevin", "Bieksa", "P", "R"));
+            players.Add(new Pelaaja("Chris", "Wagner", "H", "R"));
+            players.Add(new Pelaaja("Reto", "Berra", "MV", "R"));
+
+            foreach (Pelaaja player in players)
+            {
+                ducks.playersInTeam.Add(player);
+            }
+
+            Console.WriteLine(ducks.ToString());
+            ducks.GetPlayersInfo();
+
+            ducks.SaveData();
         }
     }
 }

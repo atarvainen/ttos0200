@@ -1,15 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Demot",
-    "\\Demot\\InterfaceExample",
-    "\\Demot\\Interfaces",
+    "\\Demot\\PersonApplication",
     "\\vko6ma",
-    "\\vko6ma\\t1",
-    "\\vko6ma\\t2",
     "\\vko6ma\\t3",
-    "\\vko6ma\\t5"
+    "\\vko6ma\\t5",
+    "\\vko6ma\\t6"
   ],
-  "SelectedNode": "\\vko6ma\\t1\\Program.cs",
+  "SelectedNode": "\\vko6ma\\t3\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
