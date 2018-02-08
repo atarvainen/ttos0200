@@ -9,13 +9,13 @@ namespace t1
     class Order
     {
         public int OrderId { get; set; }
+        
+        public List<OrderItem> orderItems = new List<OrderItem>();
 
         public Order(int orderId)
         {
             OrderId = orderId;
         }
-
-        public List<OrderItem> orderItems = new List<OrderItem>();
 
         public void ShowOrderItems()
         {
