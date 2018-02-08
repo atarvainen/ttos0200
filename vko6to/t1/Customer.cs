@@ -11,6 +11,7 @@ namespace t1
         public string Name { get; set; }
         public string Address { get; set; }
         public int CustomerId { get; set; }
+        public List<Order> orders = new List<Order>();
 
         public Customer(string name, string address, int customerId)
         {
@@ -18,8 +19,6 @@ namespace t1
             Address = address;
             CustomerId = customerId;
         }
-
-        public List<Order> orders = new List<Order>();
 
         public void ShowOrders()
         {
