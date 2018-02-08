@@ -11,6 +11,12 @@ namespace t1
         public int ItemId { get; set; }
         public string ItemName { get; set; }
 
+        public OrderItem(int itemId, string itemName)
+        {
+            ItemId = itemId;
+            ItemName = itemName;
+        }
+
         public override string ToString()
         {
             return "Item ID: " + ItemId + " Item name: " + ItemName;

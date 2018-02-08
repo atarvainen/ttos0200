@@ -4,3 +4,10 @@ D:\L4623\ttos0200-olio-vko1\vko6to\t1\bin\Debug\t1.pdb
 D:\L4623\ttos0200-olio-vko1\vko6to\t1\obj\Debug\t1.csprojResolveAssemblyReference.cache
 D:\L4623\ttos0200-olio-vko1\vko6to\t1\obj\Debug\t1.exe
 D:\L4623\ttos0200-olio-vko1\vko6to\t1\obj\Debug\t1.pdb
+F:\Opiskelu\ttos0200-olio-vko1\vko6to\t1\bin\Debug\t1.exe.config
+F:\Opiskelu\ttos0200-olio-vko1\vko6to\t1\bin\Debug\t1.exe
+F:\Opiskelu\ttos0200-olio-vko1\vko6to\t1\bin\Debug\t1.pdb
+F:\Opiskelu\ttos0200-olio-vko1\vko6to\t1\obj\Debug\t1.csprojResolveAssemblyReference.cache
+F:\Opiskelu\ttos0200-olio-vko1\vko6to\t1\obj\Debug\t1.csproj.CoreCompileInputs.cache
+F:\Opiskelu\ttos0200-olio-vko1\vko6to\t1\obj\Debug\t1.exe
+F:\Opiskelu\ttos0200-olio-vko1\vko6to\t1\obj\Debug\t1.pdb

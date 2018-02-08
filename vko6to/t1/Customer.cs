@@ -12,6 +12,13 @@ namespace t1
         public string Address { get; set; }
         public int CustomerId { get; set; }
 
+        public Customer(string name, string address, int customerId)
+        {
+            Name = name;
+            Address = address;
+            CustomerId = customerId;
+        }
+
         public List<Order> orders = new List<Order>();
 
         public void ShowOrders()

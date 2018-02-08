@@ -10,6 +10,11 @@ namespace t1
     {
         public int OrderId { get; set; }
 
+        public Order(int orderId)
+        {
+            OrderId = orderId;
+        }
+
         public List<OrderItem> orderItems = new List<OrderItem>();
 
         public void ShowOrderItems()

@@ -9,20 +9,29 @@ namespace t2
     class PaidWithCash : ITransaction
     {
         public float PaidAmount { get; set; }
-        public float CashAmount { get; set; }
+        public float TotalSales { get; set; }
+        public int Billnumber = 0;
+
+        public void CashTransaction(float number)
+        {
+            PaidAmount = number;
+            TotalSales += number;
+        }
+
         public string ShowTransaction()
         {
-           return "Paid with cash: Billnumber" + + " date: " + + " amount: " + );
+            String datenow = DateTime.Now.ToString("dd.MM.yyy");
+            return "Paid with cash: billnumber " + ++Billnumber + " date: " + datenow + " amount: " + PaidAmount;
         }
 
         public float GetAmount()
         {
-            return value;
+            return PaidAmount;
         }
 
         public float ShowCash()
         {
-            return CashMoney += PaidAmount;
+            return TotalSales;
         }
     }
 }

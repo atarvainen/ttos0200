@@ -6,17 +6,26 @@ using System.Threading.Tasks;
 
 namespace t2
 {
-    class PaidWithCard
+    class PaidWithCard : ITransaction
     {
-        public float Amount { get; set; }
+        public float PaidAmount { get; set; }
+        public float TotalSales { get; set; }
+
+        public void CardTransaction(float number)
+        {
+            PaidAmount = number;
+            TotalSales += number;
+        }
+
         public string ShowTransaction()
         {
-            return "Transaction to bank: charge from card " + + " date: " + + " amount: " + );
+            String datenow = DateTime.Now.ToString("dd.MM.yyy");
+            return "Transaction to bank: charge from card date: " + datenow + " amount: " + PaidAmount;
         }
 
         public float GetAmount()
         {
-            return value;
+            return PaidAmount;
         }
     }
 }
