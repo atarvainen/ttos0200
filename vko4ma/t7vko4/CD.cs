@@ -56,6 +56,5 @@ namespace t7vko4
             Name = name;
             Duration = duration;
         }
-
     }
 }

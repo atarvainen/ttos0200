@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace t1vko7ma
 {
-    class Opiskelija
+    class Student
     {
         public string Fname { get; set; }
         public string Lname { get; set; }
