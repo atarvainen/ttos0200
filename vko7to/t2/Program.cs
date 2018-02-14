@@ -41,33 +41,16 @@ namespace t2
                     string[] lines = System.IO.File.ReadAllLines(docpath);
                     string[] unique = lines.Distinct().ToArray();
                     Array.Sort(lines);
-                    int names = lines.Length;
-                    int uniquenames = unique.Length;
-                    var result = lines[0].Equals(lines[4], StringComparison.Ordinal);
-                    Console.WriteLine(result);
+                    int names = lines.Count();
+                    int uniquenames = unique.Count();
 
                     Console.WriteLine("Löytyi {0} riviä, ja {1} nimeä.", names, uniquenames);
-                    int i = 0;
-                    
-                    for (int l = 0; l < names-1;l++)
+
+                    var j = lines.GroupBy( i => i );
+
+                    foreach(var k in j)
                     {
-                        for (int k = 0; k < names-1; k++)
-                        {
-                            if (lines[l].Equals(lines[k], StringComparison.Ordinal))
-                            {
-                                i++;
-                                Console.WriteLine(i);
-                            }
-                            else
-                            {
-                                Console.WriteLine("ei onnaa");
-                            }
-                        }
-                    }
-                    
-                    foreach (string line in lines)
-                    {
-                        Console.WriteLine(line);
+                      Console.WriteLine( "{0} {1}", k.Key, k.Count() );
                     }
                 }
 

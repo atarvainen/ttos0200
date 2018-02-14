@@ -58,7 +58,6 @@ namespace t1
             }
             catch (Exception ex)
             {
-
                 Console.WriteLine(ex.Message);
             }
             Console.ReadKey();
