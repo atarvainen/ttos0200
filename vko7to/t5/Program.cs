@@ -25,12 +25,11 @@ namespace t5
 	        {
                 IFormatter formatter = new BinaryFormatter();
 
-		        Stream openStream = new FileStream("TV_Shows.bin", FileMode.Open, FileAccess.Read, FileShare.Read);
+		        using(Stream openStream = new FileStream("TV_Shows.bin", FileMode.Open, FileAccess.Read, FileShare.Read))
+                {
+                    tvshows = (List<TVShow>)formatter.Deserialize(openStream);
+                }
                     
-                tvshows = (List<TVShow>)formatter.Deserialize(openStream);
-
-                openStream.Close();
-
                 foreach (TVShow show in tvshows)
                 {
                     Console.WriteLine("Show name: {0}, Channel: {1}, Starting time: {2}, Ending time: {3}, Info: {4}", show.ShowName, show.Channel, show.StartingTime, show.EndingTime, show.Info);
@@ -39,7 +38,6 @@ namespace t5
 
 	        catch (Exception)
 	        {
-
 		        throw;
 	        }
         }
@@ -54,11 +52,10 @@ namespace t5
 
                 IFormatter formatter = new BinaryFormatter();
 
-                Stream writeMultipleStream = new FileStream("TV_Shows.bin", FileMode.Create, FileAccess.Write, FileShare.None);
-
-                formatter.Serialize(writeMultipleStream, tvshows);
-
-                writeMultipleStream.Close();
+                using(Stream openStream = new FileStream("TV_Shows.bin", FileMode.Open, FileAccess.Read, FileShare.Read))
+                {
+                    formatter.Serialize(writeMultipleStream, tvshows);
+                }
 
                 foreach (TVShow show in tvshows)
                 {
@@ -77,22 +74,14 @@ namespace t5
         {
             List<TVShow> tvshows = new List<TVShow>();
 
-            try
+            if (File.Exists("TV_Shows.bin"))
             {
-                if (File.Exists("TV_Shows.bin"))
-                {
-                    ReadFile(tvshows);
-                }
-
-                else
-                {
-                    SaveToFile(tvshows);
-                }
+                ReadFile(tvshows);
             }
 
-            catch (Exception ex)
+            else
             {
-                Console.WriteLine(ex);
+                SaveToFile(tvshows);
             }
 
             Console.ReadKey();
