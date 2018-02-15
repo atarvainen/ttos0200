@@ -66,12 +66,14 @@ namespace t3
                         break;
                     }
 	            }
-	            catch (Exception)
+
+	            catch (Exception ex)
 	            {
-		            throw;
+		            Console.WriteLine(ex);
 	            }
 
             }while (line.Length > 0);
+
             outputFile.Close();
             secondOutputFile.Close();
         }

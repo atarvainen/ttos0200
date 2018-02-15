@@ -60,9 +60,9 @@ namespace t2
                 }
             }
 
-            catch (Exception)
+            catch (Exception ex)
             {
-                throw;
+                Console.WriteLine(ex);
             }
 
             Console.ReadKey();
