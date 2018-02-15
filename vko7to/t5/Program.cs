@@ -65,14 +65,6 @@ namespace t5
                 throw;
             }
 
-            finally
-            {
-                if (openStream != null)
-                {
-                    openStream.Close();
-                    writeMultipleStream.Close();
-                }
-            }
             Console.ReadKey();
         }
     }
