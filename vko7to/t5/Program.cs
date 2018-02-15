@@ -52,7 +52,7 @@ namespace t5
 
                 IFormatter formatter = new BinaryFormatter();
 
-                using(Stream openStream = new FileStream("TV_Shows.bin", FileMode.Open, FileAccess.Read, FileShare.Read))
+                using(Stream writeMultipleStream = new FileStream("TV_Shows.bin", FileMode.Open, FileAccess.Read, FileShare.Read))
                 {
                     formatter.Serialize(writeMultipleStream, tvshows);
                 }
