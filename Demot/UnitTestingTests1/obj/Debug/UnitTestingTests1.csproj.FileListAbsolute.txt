@@ -1,0 +1,15 @@
+D:\L4623\ttos0200-olio-vko1\Demot\UnitTestingTests1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\L4623\ttos0200-olio-vko1\Demot\UnitTestingTests1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\L4623\ttos0200-olio-vko1\Demot\UnitTestingTests1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\L4623\ttos0200-olio-vko1\Demot\UnitTestingTests1\bin\Debug\UnitTestingTests1.dll
+D:\L4623\ttos0200-olio-vko1\Demot\UnitTestingTests1\bin\Debug\UnitTestingTests1.pdb
+D:\L4623\ttos0200-olio-vko1\Demot\UnitTestingTests1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\L4623\ttos0200-olio-vko1\Demot\UnitTestingTests1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\L4623\ttos0200-olio-vko1\Demot\UnitTestingTests1\bin\Debug\UnitTesting.exe
+D:\L4623\ttos0200-olio-vko1\Demot\UnitTestingTests1\bin\Debug\UnitTesting.pdb
+D:\L4623\ttos0200-olio-vko1\Demot\UnitTestingTests1\bin\Debug\UnitTesting.exe.config
+D:\L4623\ttos0200-olio-vko1\Demot\UnitTestingTests1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\L4623\ttos0200-olio-vko1\Demot\UnitTestingTests1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\L4623\ttos0200-olio-vko1\Demot\UnitTestingTests1\obj\Debug\UnitTestingTests1.csprojResolveAssemblyReference.cache
+D:\L4623\ttos0200-olio-vko1\Demot\UnitTestingTests1\obj\Debug\UnitTestingTests1.dll
+D:\L4623\ttos0200-olio-vko1\Demot\UnitTestingTests1\obj\Debug\UnitTestingTests1.pdb

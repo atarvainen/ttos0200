@@ -5,6 +5,11 @@
       "taskName": "task-Program",
       "appliesTo": "t10/Program.cs",
       "type": "launch"
+    },
+    {
+      "taskName": "task-UnitTesting",
+      "appliesTo": "Demot/UnitTesting/UnitTesting.csproj",
+      "type": "command"
     }
   ]
 }

@@ -1,0 +1,6 @@
+D:\L4623\ttos0200-olio-vko1\vko8ma\t1\bin\Debug\t1.exe.config
+D:\L4623\ttos0200-olio-vko1\vko8ma\t1\bin\Debug\t1.exe
+D:\L4623\ttos0200-olio-vko1\vko8ma\t1\bin\Debug\t1.pdb
+D:\L4623\ttos0200-olio-vko1\vko8ma\t1\obj\Debug\t1.csprojResolveAssemblyReference.cache
+D:\L4623\ttos0200-olio-vko1\vko8ma\t1\obj\Debug\t1.exe
+D:\L4623\ttos0200-olio-vko1\vko8ma\t1\obj\Debug\t1.pdb
