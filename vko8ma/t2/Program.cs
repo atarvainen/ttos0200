@@ -2,9 +2,10 @@
 Tehtävä 2
 Toteuta pienimuotoinen MyMailBook-ohjelma, jolla voit hakea ja tallentaa tuttujesi sähköposti
 (yksinkertaisuuden vuoksi oletetaan tässä että kullakin tutulla on vain yksi sähköpostiosoite). 
-Luo luokka Friend, jolla on ominaisuudet Name ja Email.Tee kokoelmaluokka MailBook, joka alustettaessa hakee 
-tekstitiedostosta tutut.csv ja heidän sp-osoitteensa ja tallentaa ne Friend-olioihin.Kokoelmaluokalla MailBook 
-on readonly ominaisuus on Friends, joka palauttaa listan Friend-olioita.Toteuta pääohjelmaan ja/tai em.
+Luo luokka Friend, jolla on ominaisuudet Name ja Email.
+
+Tee kokoelmaluokka MailBook, joka alustettaessa hakee tekstitiedostosta tutut.csv ja heidän sp-osoitteensa ja tallentaa ne Friend-olioihin.
+Kokoelmaluokalla MailBook on readonly ominaisuus on Friends, joka palauttaa listan Friend-olioita. Toteuta pääohjelmaan ja/tai em.
 MailBook-luokkaan seuraavat toiminnot:
 - ohjelman käynnistyessä lukee tiedostosta tutut ja näyttää montako nimeä sai luettua
 - näyttää kaikki ystävät näytöllä
@@ -35,6 +36,13 @@ namespace t2
             mailbook.FindFriend(input);
 
             Console.WriteLine("Lisää tuttu");
+            Console.Write("Anna tutun nimi: ");
+            string friendsname = Console.ReadLine();
+            Console.Write("Anna tutun email: ");
+            string friendsemail = Console.ReadLine();
+
+            mailbook.AddFriend(friendsname, friendsemail);
+
             Console.ReadKey();
         }
     }

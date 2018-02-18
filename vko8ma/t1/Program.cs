@@ -40,36 +40,33 @@ namespace t1
 
         static string ModifyStringToReverse(string input)
         {
-            int length = input.Length-1;
-            char[] inputarray = input.ToCharArray();
-            char[] temp = new char[1];
+            string temp = "";
 
-            for (int i = 0,j=length; i <= length/2; i++,j--)
+            for (int i = input.Length - 1; i >= 0; i--)
             {
-                temp[0] = inputarray[i];
-                inputarray[i] = inputarray[j];
-                inputarray[j] = temp[0];
+                temp = temp + input[i];
             }
 
-            return new string(inputarray);
+            return temp;
         }
 
         static void WriteOut(string input, ModifyString del)
         {
-            Console.WriteLine("Your string before: {0}", input);
-            Console.WriteLine("Your string after: {0}", del(input));
+            Console.WriteLine("String before: {0}", input);
+            Console.WriteLine("String after: {0}", del(input));
         }
+
         static void Main(string[] args)
         {
             int number;
             Console.WriteLine("Enter a string to modify: ");
-            string input = "Kallel";
-            do
+            string input = Console.ReadLine();
+            while (true)
             {
                 Console.WriteLine("String to uppercase 0");
                 Console.WriteLine("String to lowercase 1");
                 Console.WriteLine("String to Header 2");
-                Console.WriteLine("Reveres string 3");
+                Console.WriteLine("Reverse string 3");
                 Console.WriteLine("Stop with enter or not a number");
                 bool result = int.TryParse(Console.ReadLine(), out number);
                 if (result)
@@ -103,8 +100,7 @@ namespace t1
                 {
                     break;
                 }
-
-            } while (true);
+            }
         }
     }
 }

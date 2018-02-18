@@ -9,7 +9,7 @@ namespace t2
 {
     class MailBook
     {
-        public List<Friend> friends = new List<Friend>();
+        private readonly List<Friend> friends = new List<Friend>();
         public int NumberOfFriends { get; set; }
 
         public MailBook()
@@ -41,6 +41,7 @@ namespace t2
                     Console.WriteLine(ex);
                 }
             }
+
             else
             {
                 Console.WriteLine("File does not exist");
@@ -57,41 +58,75 @@ namespace t2
 
         public void AddFriend(string name, string email)
         {
-            friends.Add(new Friend { Name = name, Email = email });
-
-            if (File.Exists("tutut.csv"))
-            {
-                using (StreamWriter sw = File.AppendText("tutut.csv"))
+            try 
+	        {	        
+		        if (File.Exists("tutut.csv"))
                 {
-                    sw.WriteLine(name + ";" + email);
-                }
-            }
-
-            else
-            {
-                using (StreamWriter sw = File.CreateText("tutut.csv"))
-                {
-                    foreach (Friend friend in friends)
+		            using (StreamWriter sw = File.AppendText("tutut.csv"))
                     {
-                        sw.WriteLine(friend.Name + ";" + friend.Email);
+                        sw.WriteLine(name + ";" + email);
                     }
 
-                    sw.WriteLine(name + ";" + email);
+                    Console.WriteLine("Tuttu lisätty");
                 }
+
+                else
+                {
+                    using (StreamWriter sw = File.CreateText("tutut.csv"))
+                    {
+                        foreach (Friend friend in friends)
+                        {
+                            sw.WriteLine(friend.Name + ";" + friend.Email);
+                        }
+
+                        sw.WriteLine(name + ";" + email);
+                    }
+
+                    Console.WriteLine("Tuttu lisätty");
+                }
+	        }
+
+            catch (UnauthorizedAccessException)
+            {
+                Console.WriteLine("Can't open file for writing (UnauthorizedAccessException)");
+            }
+
+            catch (ArgumentNullException)
+            {
+                Console.WriteLine("Opened stream is null (ArgumentNullException)");
+            }
+
+	        catch (ArgumentException)
+	        {
+		        Console.WriteLine("Opened stream is not writable (ArgumentException)");
+	        }
+
+            catch (IOException)
+            {
+                Console.WriteLine("An IO error happend (IOException)");
+            }
+
+            catch (Exception)
+            {
+                Console.WriteLine("Some other exception happend (Exception)");
             }
         }
 
         public void FindFriend(string input)
         {
-            string linput = input.ToLower();
-            int length = linput.Length;
-            foreach (Friend friend in friends)
+            var foundfriends = friends.FindAll(x => x.Name.IndexOf(input) != -1);
+
+            if (foundfriends.Count != 0)
             {
-                string found = friend.Name.ToLower().Substring(0, length);
-                if (found == linput)
+                foreach (Friend f in foundfriends)
                 {
-                    Console.WriteLine("{0} {1}", friend.Name, friend.Email);
+                    Console.WriteLine(f.Name);
                 }
+            }
+
+            else
+            {
+                Console.WriteLine("No names found");
             }
         }
     }
