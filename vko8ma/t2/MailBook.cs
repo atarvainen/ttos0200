@@ -10,7 +10,7 @@ namespace t2
     class MailBook
     {
         private readonly List<Friend> friends = new List<Friend>();
-        public int NumberOfFriends { get; set; }
+        private static int NumberOfFriends = 0;
 
         public MailBook()
         {
@@ -36,6 +36,7 @@ namespace t2
 
                     Console.WriteLine("Osoitekirjassa on {0} nimeä", NumberOfFriends);
                 }
+
                 catch (Exception ex)
                 {
                     Console.WriteLine(ex);
@@ -58,32 +59,32 @@ namespace t2
 
         public void AddFriend(string name, string email)
         {
-	    try 
-		{	        
-		if (File.Exists("tutut.csv"))
-		{
-			    using (StreamWriter sw = File.AppendText("tutut.csv"))
-		    {
-			sw.WriteLine(name + ";" + email);
-		    }
+	        try 
+		    {	        
+		        if (File.Exists("tutut.csv"))
+		        {
+			        using (StreamWriter sw = File.AppendText("tutut.csv"))
+		            {
+			            sw.WriteLine(name + ";" + email);
+		            }
 
-		    Console.WriteLine("Tuttu lisätty");
-		}
+		            Console.WriteLine("Tuttu lisätty");
+		        }
 
-		else
-		{
-		    using (StreamWriter sw = File.CreateText("tutut.csv"))
-		    {
-			foreach (Friend friend in friends)
-			{
-			    sw.WriteLine(friend.Name + ";" + friend.Email);
-			}
+		        else
+		        {
+		            using (StreamWriter sw = File.CreateText("tutut.csv"))
+		            {
+			            foreach (Friend friend in friends)
+			            {
+			                sw.WriteLine(friend.Name + ";" + friend.Email);
+			            }
+                        sw.WriteLine(name + ";" + email);
+                    }
 
-			sw.WriteLine(name + ";" + email);
-		    }
-
-		    Console.WriteLine("Tuttu lisätty");
-		}
+		            Console.WriteLine("Tuttu lisätty");
+                }
+            }
 
             catch (UnauthorizedAccessException)
             {

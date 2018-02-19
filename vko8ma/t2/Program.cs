@@ -33,6 +33,7 @@ namespace t2
 
             Console.WriteLine("Anna haettavan nimi tai sen alkuosa");
             string input = Console.ReadLine();
+
             mailbook.FindFriend(input);
 
             Console.WriteLine("Lisää tuttu");

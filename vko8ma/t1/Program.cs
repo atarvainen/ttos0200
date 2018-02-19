@@ -61,14 +61,15 @@ namespace t1
             int number;
             Console.WriteLine("Enter a string to modify: ");
             string input = Console.ReadLine();
-            while (true)
+            Console.WriteLine("String to uppercase 0");
+            Console.WriteLine("String to lowercase 1");
+            Console.WriteLine("String to Header 2");
+            Console.WriteLine("Reverse string 3");
+            Console.WriteLine("Stop with enter or not a number");
+            string line = Console.ReadLine();
+            for (int i = 0; i < line.Length; i++)
             {
-                Console.WriteLine("String to uppercase 0");
-                Console.WriteLine("String to lowercase 1");
-                Console.WriteLine("String to Header 2");
-                Console.WriteLine("Reverse string 3");
-                Console.WriteLine("Stop with enter or not a number");
-                bool result = int.TryParse(Console.ReadLine(), out number);
+                bool result = int.TryParse(line.Substring(i, 1), out number);
                 if (result)
                 {
                     switch (number)
